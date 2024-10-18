@@ -20,7 +20,6 @@ export interface ProcessItem {
 }
 
 const ProcessCard = ({ item }: { item: ProcessItem }) => (
-  // <Reveal>
   <div
     className={`${item.bgColor} lg:hover:z-50 hover:translate-y-3 text-white transition duration-300 rounded-2xl shadow-lg px-8 py-4 flex flex-col`}
   >
@@ -32,7 +31,6 @@ const ProcessCard = ({ item }: { item: ProcessItem }) => (
       {item.description}
     </p>
   </div>
-  // </Reveal>
 );
 
 const Task = () => (
@@ -55,7 +53,7 @@ const Task = () => (
             </div>
             <PiVideoFill className="text-white ml-2" />
           </button>
-          <Link href="https://expo.dev/artifacts/eas/gyuzaUXkvJwt3tLvMLjDW9.apk">
+          <Link href="https://expo.dev/accounts/landrybrigea/projects/plastikoo_mobile/builds/b9a34e51-7f9b-4261-974e-5479d931e35c">
             <button className="bg-orange flex items-center py-2 justify-start text-white px-6 md:px-8 rounded-lg hover:scale-x-105 hover:scale-y-105 transition duration-300">
               <div className="text-[15px] md:text-[14px]">
                 Telecharger l'APK Plastikôo
