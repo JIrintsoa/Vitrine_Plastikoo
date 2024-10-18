@@ -55,7 +55,7 @@ const Task = () => (
             </div>
             <PiVideoFill className="text-white ml-2" />
           </button>
-          <Link href="https://expo.dev/artifacts/eas/cLgYDdcoNJazvhPgRnaUhZ.apk">
+          <Link href="https://expo.dev/artifacts/eas/gyuzaUXkvJwt3tLvMLjDW9.apk">
             <button className="bg-orange flex items-center py-2 justify-start text-white px-6 md:px-8 rounded-lg hover:scale-x-105 hover:scale-y-105 transition duration-300">
               <div className="text-[15px] md:text-[14px]">
                 Telecharger l'APK Plastikôo
