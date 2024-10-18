@@ -1,11 +1,10 @@
 "use client";
+
 import React from "react";
 import { process } from "../../utils/Data";
 import Image from "next/image";
 import { Reveal } from "../../utils/Reveal";
 import { FaDownload } from "react-icons/fa";
-import { RevealRight } from "../../utils/RevealRight";
-import { RevealLeft } from "../../utils/RevealLeft";
 import { ReactNode } from "react";
 import { PiVideoFill } from "react-icons/pi";
 import { FaArrowRightLong } from "react-icons/fa6";
