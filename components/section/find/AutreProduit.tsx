@@ -9,7 +9,7 @@ const SectionProduit: React.FC = () => {
       <Reveal>
         <div className="bg-white py-16">
           <div className="container mx-auto px-4 text-center">
-            <h2 className=" text-[25px] lg:text-4xl font-bold mb-2 lg:mb-4 text-red">
+            <h2 className=" text-[25px] lg:text-4xl  mb-2 text-orange font-black lg:mb-4 text-red">
               Découvrez nos Tiny constructions
             </h2>
             <p className="text-[20px] lg:text-4xl font-semibold mb-5 lg:mb-12 text-secondary">
@@ -22,19 +22,17 @@ const SectionProduit: React.FC = () => {
               structures écologiques contribuent directement à la réduction de
               la pollution plastique.
             </p>
-            <div className="flex justify-center flex-wrap gap-8">
+            <div className="flex  justify-center flex-wrap gap-8">
               <RevealLeft>
-                <div className="bg-black text-white border-primary border-[2px] rounded-xl p-4 w-64 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-black text-white border-primary border-[2px] rounded-xl p-4 w-80 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img
                     src="/tinyhouse.png"
                     alt="Tiny House"
                     className="w-full h-48 object-cover mb-4 rounded"
                   />
                   <h3 className="text-xl font-semibold mb-3">Tiny House</h3>
-                  <p className="text-gray-300 mb-4 text-[15px] line-clamp-3">
-                    "Construisez des maisons durables et abordables avec nos
-                    briques, idéales pour une liberté, un espace de vie
-                    écologique et confortable."
+                  <p className="text-gray-300 mb-4 lg:text-[15px] text-[15px] line-clamp-3">
+                    "Construisez des habitats écologiques  avec nos briques, idéales pour un espace de vie confortable."
                   </p>
                   <Link href="/products/TinyHouse">
                     <button className="bg-primary text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-300">
@@ -45,7 +43,7 @@ const SectionProduit: React.FC = () => {
               </RevealLeft>
 
               <RevealLeft>
-                <div className="bg-black text-white border-primary border-[2px] rounded-xl p-4 w-64 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-black text-white border-primary border-[2px] rounded-xl p-4 w-80 h-[100%] text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img
                     src="/tinyclassroom.png"
                     alt="Tiny Classroom"
@@ -53,9 +51,7 @@ const SectionProduit: React.FC = () => {
                   />
                   <h3 className="text-xl font-semibold mb-3">Tiny Classroom</h3>
                   <p className="text-gray-300 mb-4 text-[15px] line-clamp-3">
-                    "Explorez des salles de classes conçues à partir de nos
-                    briques pour un environnement d'apprentissage propre et
-                    inspirant."
+                    "Explorez des salles de classes conçues à partir de nos briques pour un environnement d'apprentissage inspirant."
                   </p>
                   <Link href="/products/TinyClassroom">
                     <button className="bg-primary text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-300">
@@ -66,7 +62,7 @@ const SectionProduit: React.FC = () => {
               </RevealLeft>
 
               <RevealLeft>
-                <div className="bg-black text-white border-primary border-[2px] rounded-xl p-4 w-64 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-black text-white border-primary border-[2px] rounded-xl p-4 w-80 h-[100%] text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img
                     src="/tinylibrary.png"
                     alt="Tiny Library"
@@ -74,9 +70,7 @@ const SectionProduit: React.FC = () => {
                   />
                   <h3 className="text-xl font-semibold mb-3">Tiny Library</h3>
                   <p className="text-gray-300 mb-4 text-[15px] line-clamp-3">
-                    "Créez un espace de lecture agréable et confortable avec nos
-                    briques, parfait pour stimuler l'esprit, éveiller la
-                    curiosité et encourager l'apprentissage."
+                    "Créez un espace de lecture agréable parfait pour stimuler l'esprit, éveiller la curiosité et encourager l'apprentissage."
                   </p>
                   <Link href="/products/TinyLibrary">
                     <button className="bg-primary text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-300">
@@ -110,7 +104,7 @@ const SectionProduit: React.FC = () => {
 
             <div className="flex justify-center flex-wrap gap-8">
               <RevealLeft>
-                <div className="bg-white text-black border-primary border-[2px] rounded-xl p-4 w-64 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-white text-black border-primary border-[2px] rounded-xl p-4 w-80 h-[100%] text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img
                     src="/briques.png"
                     alt="Briques"
@@ -133,7 +127,7 @@ const SectionProduit: React.FC = () => {
 
               {/* Produit 2 */}
               <RevealLeft>
-                <div className="bg-white text-black border-primary border-[2px] rounded-xl p-4 w-64 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-white text-black border-primary border-[2px] rounded-xl p-4 w-80 h-[100%] text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img
                     src="/tuile.png"
                     alt="Tuiles"
@@ -155,7 +149,7 @@ const SectionProduit: React.FC = () => {
               </RevealLeft>
 
               <RevealLeft>
-                <div className="bg-white text-black border-primary border-[2px] rounded-xl p-4 w-64 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="bg-white text-black border-primary border-[2px] rounded-xl p-4 w-80 h-[100%] text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img
                     src="/door.png"
                     alt="Porte"

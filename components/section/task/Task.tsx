@@ -64,9 +64,9 @@ const Task = () => (
       </div>
       <Image
         src="/notre-solution.png"
-        width="400"
-        height="400"
-        className=" lg:w-[50%] mr-0 lg:mr-12"
+        width={578}
+        height={498}
+        // className=" lg:w-[50%] mr-0 lg:mr-12"
         alt="dechet"
       />
     </div>
