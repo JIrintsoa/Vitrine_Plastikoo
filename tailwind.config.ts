@@ -15,6 +15,13 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+      fontWeight: {
+        semibold: '600',
+        black: '900',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
